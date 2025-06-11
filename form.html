@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+        <div class="form-wrap">
+            <form class="form-cunt" action="">
+                <div class="form-pg active" id="page1">
+                    <h1>Your details</h1>
+                    <div class="form-grp">
+                        <label for="fullname">Name</label>
+                        <input type="text" id="fullname" name="user_name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="form-grp">
+                        <label for="userEmail">Email</label>
+                        <input type="text" id="userEmail" name="user_email" placeholder="example@domain.com" required>
+                    </div>
+
+                    <div class="formgrp">
+                        <button type="button" class="next-btn" data-next-page="page2">Next &rarr;</button>
+                    </div>
+                </div>
+
+                <div class="form-pg" id="page2">
+                    <h1>Your Message</h1>
+                    <div class="form-grp">
+                        <label for="messageSubject">Subject:</label>
+                        <input type="text" id="messageSubject" name="message_subject" placeholder="What's this about?" required>
+                    </div>
+
+                    <div class="form-grp">
+                        <label for="userEmail">Your Message:</label>
+                        <textarea name="user_message" id="userMessage" rows="5" placeholder="Spill..."></textarea>
+                    </div>
+
+                    <div class="formgrp">
+                        <button type="button" class="back-btn" data-prev-page="page2">&larr; Back</button>
+                        <button type="submit" class="sub-btn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
