@@ -117,15 +117,16 @@ body {
 
 footer {
     font-size: 20px;
-    color: #2c2c2c;
+    color: #ffffff;
     text-align: center;
     padding: 0 0 10px 0;
+    display: block;
     
 }
 footer a {
     text-decoration: none;
-    color: #000;
+    color: #b47272;
 }
 #div-stroke {
-    color: #d2f5d2;
+    color: #231724;
 }
