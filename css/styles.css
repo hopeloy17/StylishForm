@@ -114,3 +114,18 @@ body {
 .back-btn:active {
     transform: translateY(0); /* Return to normal on click */
 }
+
+footer {
+    font-size: 20px;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 0 0 10px 0;
+    
+}
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+#div-stroke {
+    color: #d2f5d2;
+}
